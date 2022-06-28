@@ -1,11 +1,11 @@
-import { NgxDestroyService } from './ngx-destroy.service';
+import { NgxDestroy } from './ngx-destroy.service';
 import { finalize, Observable, of, takeUntil, timer } from 'rxjs';
 
 describe('NgxDestroyService', () => {
-  let service: NgxDestroyService;
+  let service: NgxDestroy;
 
   beforeEach(() => {
-    service = new NgxDestroyService();
+    service = new NgxDestroy();
   });
 
   it('should keep the subscription when not destroyed', () => {
