@@ -14,7 +14,12 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@mikelgo/ngx-destroy": ["libs/ngx-destroy/src/index.ts"],
+      "@mikelgo/ngx-subscription-manager": [
+        "libs/ngx-subscription-manager/src/index.ts"
+      ]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }

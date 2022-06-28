@@ -3,6 +3,8 @@
   "version": 2,
   "projects": {
     "demo": "apps/demo",
-    "demo-e2e": "apps/demo-e2e"
+    "demo-e2e": "apps/demo-e2e",
+    "ngx-destroy": "libs/ngx-destroy",
+    "ngx-subscription-manager": "libs/ngx-subscription-manager"
   }
 }
