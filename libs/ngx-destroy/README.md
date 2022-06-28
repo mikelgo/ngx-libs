@@ -47,3 +47,5 @@ export class SomeComponent {
   
 }
 ```
+
+A demo can be found [here](https://angular-ivy-g3n96x.stackblitz.io)
