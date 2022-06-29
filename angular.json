@@ -5,6 +5,7 @@
     "demo": "apps/demo",
     "demo-e2e": "apps/demo-e2e",
     "ngx-destroy": "libs/ngx-destroy",
+    "ngx-hooks": "libs/ngx-hooks",
     "ngx-subscription-manager": "libs/ngx-subscription-manager"
   }
 }

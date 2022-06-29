@@ -16,9 +16,8 @@
     "baseUrl": ".",
     "paths": {
       "@mikelgo/ngx-destroy": ["libs/ngx-destroy/src/index.ts"],
-      "@mikelgo/ngx-subscription-manager": [
-        "libs/ngx-subscription-manager/src/index.ts"
-      ]
+      "@mikelgo/ngx-hooks": ["libs/ngx-hooks/src/index.ts"],
+      "@mikelgo/ngx-subscription-manager": ["libs/ngx-subscription-manager/src/index.ts"]
     }
   },
   "exclude": ["node_modules", "tmp"]

@@ -9,7 +9,8 @@
     "build": "nx build",
     "test": "nx test",
     "clean:dist": "rimraf dist/libs/*",
-    "publish:ngx-destroy": "nx build ngx-destroy && cd dist/libs/ngx-destroy &&  npm publish --access=public"
+    "publish:ngx-destroy": "nx build ngx-destroy && cd dist/libs/ngx-destroy &&  npm publish --access=public",
+    "publish:ngx-hooks": "nx build ngx-hooks && cd dist/libs/ngx-hooks &&  npm publish --access=public"
   },
   "private": true,
   "dependencies": {

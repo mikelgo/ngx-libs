@@ -1,36 +1,36 @@
 {
   "projectType": "library",
-  "sourceRoot": "libs/ngx-destroy/src",
+  "sourceRoot": "libs/ngx-hooks/src",
   "prefix": "ngx-libs",
   "targets": {
     "build": {
       "executor": "@nrwl/angular:package",
-      "outputs": ["dist/libs/ngx-destroy"],
+      "outputs": ["dist/libs/ngx-hooks"],
       "options": {
-        "project": "libs/ngx-destroy/ng-package.json"
+        "project": "libs/ngx-hooks/ng-package.json"
       },
       "configurations": {
         "production": {
-          "tsConfig": "libs/ngx-destroy/tsconfig.lib.prod.json"
+          "tsConfig": "libs/ngx-hooks/tsconfig.lib.prod.json"
         },
         "development": {
-          "tsConfig": "libs/ngx-destroy/tsconfig.lib.json"
+          "tsConfig": "libs/ngx-hooks/tsconfig.lib.json"
         }
       },
       "defaultConfiguration": "production"
     },
     "test": {
       "executor": "@nrwl/jest:jest",
-      "outputs": ["coverage/libs/ngx-destroy"],
+      "outputs": ["coverage/libs/ngx-hooks"],
       "options": {
-        "jestConfig": "libs/ngx-destroy/jest.config.ts",
+        "jestConfig": "libs/ngx-hooks/jest.config.ts",
         "passWithNoTests": true
       }
     },
     "lint": {
       "executor": "@nrwl/linter:eslint",
       "options": {
-        "lintFilePatterns": ["libs/ngx-destroy/**/*.ts", "libs/ngx-destroy/**/*.html"]
+        "lintFilePatterns": ["libs/ngx-hooks/**/*.ts", "libs/ngx-hooks/**/*.html"]
       }
     }
   },

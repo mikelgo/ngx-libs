@@ -30,10 +30,7 @@
     "lint": {
       "executor": "@nrwl/linter:eslint",
       "options": {
-        "lintFilePatterns": [
-          "libs/ngx-subscription-manager/**/*.ts",
-          "libs/ngx-subscription-manager/**/*.html"
-        ]
+        "lintFilePatterns": ["libs/ngx-subscription-manager/**/*.ts", "libs/ngx-subscription-manager/**/*.html"]
       }
     }
   },
